@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 70%;
+}
+body{
+    font-family: "inter", sans-serif;
+    font-size: 1.4rem;
+    background-color: #202020;
+    color:  15px#dad7cd;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0a0908;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 3rem;
+    gap: 10px;
+}
+.image-container{
+    justify-content: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px
+    
+
+}
+.name-container{
+    text-align: center;
+    gap: 4px;
+    color: #fffaf0;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    color: #fffaf0;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.button{
+    background-color: #62b6cb;
+    text-decoration: none;
+    color: #E6F0DC;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+h1{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: #E6F0DC;
+}
+p{
+    color: #E6F0DC;
+    font-size: 0.875rem;
+ 
+}
+
+h5{
+    color: #fffaf0;
+}
+
+span{
+    color: #014f86;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+}
+a:hover{
+    background-color: #cbf3f0;
+    color: #E6F0DC;
+}
